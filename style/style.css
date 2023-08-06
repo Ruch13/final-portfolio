@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(21, 2, 42);
+  color: white;
+  font-family: 'poppins', sans-serif;
+}
+nav{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: aliceblue;
+  
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin:0 20px ;
+  color: rgb(21, 2, 42);
+}
+nav ul li a{
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: rgb(241, 49, 241);
+  font-size: 1.1rem;
+}
+.left{
+  font-size: 1.5rem;
+  color: rgb(21, 2, 42);
+}
+.first{
+  display: flex;
+  justify-content:space-around;
+  margin: 60px 0;
+}
+.first >div{
+  width: 35%;
+}
+.leftsection{
+  
+  color: aliceblue;
+  font-size: 2rem;
+  margin: 90px;
+  height: 50px;
+ 
+}
+.rightsection img{
+  /* background-color: aliceblue; */
+ width: 90%;
+ margin: 0px;
+ display: flex;
+}
+.purple{
+  color: rgb(210, 124, 239);
+  font-family: poppins
+}
+#element {
+  color:  rgb(210, 124, 239);
+
+}
+.about h1{
+  font-family: 20px;
+  font-family: 'poppins',sans-serif;
+ margin-inline-start: 90px;
+  display: flex;
+  padding: auto;
+
+}
+.about p{
+  margin-inline-start: 90px; 
+ 
+  padding-bottom: 10PX;
+}
+.about h3  {
+  margin-inline-start: 90px; 
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+/* .html1{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  padding-top: 150px;
+  padding-left: 90px; */
+
+.skills h1{
+  margin-inline-start: 90px;
+  padding-top: 90px;
+
+}
+.css1{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  padding-top: 150px;
+  padding-left: 90px;
+}
+.js1{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  padding-top: 150px;
+  padding-left: 90px;
+}
+.figma1{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  padding-top: 150px;
+  padding-left: 90px;
+} */
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  padding: 5px;
+}
+.Achievements h1{
+  margin-inline-start: 90px;
+  padding-top: 90px;
+}
+.Achievements ul{
+  margin-inline-start: 90px;
+  padding-top: 10px;
+}
+
+
+.Resume{
+  margin-inline-start: 90px;
+  padding-top: 90px;
+  
+}
+#Resume{
+  color: aliceblue
+}
