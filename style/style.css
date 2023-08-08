@@ -15,7 +15,9 @@ nav{
   align-items: center;
   height: 70px;
   background-color: aliceblue;
-  
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 nav ul{
   display: flex;
@@ -51,6 +53,7 @@ nav ul li a:hover{
   font-size: 2rem;
   margin: 90px;
   height: 50px;
+  padding-top: 150px;
  
 }
 .rightsection img{
@@ -58,6 +61,7 @@ nav ul li a:hover{
  width: 90%;
  margin: 0px;
  display: flex;
+ padding-top: 100px;
 }
 .purple{
   color: rgb(210, 124, 239);
@@ -67,17 +71,28 @@ nav ul li a:hover{
   color:  rgb(210, 124, 239);
 
 }
+#about{
+  padding-top: 100px;
+}
 .about h1{
   font-family: 20px;
   font-family: 'poppins',sans-serif;
  margin-inline-start: 90px;
   display: flex;
   padding: auto;
+}
 
+.about h2{
+    font-family: 20px;
+    font-family: 'poppins',sans-serif;
+   margin-inline-start: 90px;
+    display: flex;
+    padding: auto;
+  
 }
 .about p{
   margin-inline-start: 90px; 
- 
+ margin-inline-end: 50px;
   padding-bottom: 10PX;
 }
 .about h3  {
@@ -85,13 +100,13 @@ nav ul li a:hover{
   padding-top: 10px;
   padding-bottom: 0px;
 }
-/* .html1{
+.html1{
   display: flex;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   padding-top: 150px;
-  padding-left: 90px; */
-
+  padding-left: 90px;
+}
 .skills h1{
   margin-inline-start: 90px;
   padding-top: 90px;
@@ -99,29 +114,29 @@ nav ul li a:hover{
 }
 .css1{
   display: flex;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   padding-top: 150px;
   padding-left: 90px;
 }
 .js1{
   display: flex;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   padding-top: 150px;
   padding-left: 90px;
 }
 .figma1{
   display: flex;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   padding-top: 150px;
   padding-left: 90px;
 } */
 
 .column {
   float: left;
-  width: 25%;
+  width: 40%;
   padding: 5px;
 }
 
@@ -137,23 +152,54 @@ nav ul li a:hover{
 
 .column {
   flex: 20%;
-  padding: 5px;
+  padding: 60px;
 }
 .Achievements h1{
-  margin-inline-start: 90px;
-  padding-top: 90px;
+  margin-inline-start: 30px;
+  padding-top: 50px;
 }
 .Achievements ul{
   margin-inline-start: 90px;
-  padding-top: 10px;
+  padding-top: 50px;
+  
+}
+.Achievements li{
+  margin-inline-start: 90px;
+  padding-top: 50px;
+  list-style-type: disc;
 }
 
 
 .Resume{
-  margin-inline-start: 90px;
-  padding-top: 90px;
+  margin-inline-start: 50px;
+  padding-top: 3px;
+  
   
 }
 #Resume{
-  color: aliceblue
+  color: aliceblue;
+  margin-inline-start: 40px;
+  
+  
+}
+.xyz{
+  color: white ;
+  padding: 20px;
+  margin-inline-start: 50;
+}
+
+
+.one{
+  float: left;
+  margin-left: 50px;
+  width: 550px;
+  height: 350px;
+  padding: 50px;
+}
+.two{
+float: right;
+margin-right: 50px;
+width: 550px;
+height: 350px;
+padding: 50px;
 }
