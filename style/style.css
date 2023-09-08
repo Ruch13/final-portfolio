@@ -26,7 +26,7 @@ nav ul{
 nav ul li {
   list-style: none;
   margin:0 20px ;
-  color: rgb(21, 2, 42);
+  color: rgb(48, 17, 79);
 }
 nav ul li a{
   text-decoration: none;
@@ -37,7 +37,7 @@ nav ul li a:hover{
 }
 .left{
   font-size: 1.5rem;
-  color: rgb(21, 2, 42);
+  color: rgb(48, 17, 79);
 }
 .first{
   display: flex;
@@ -94,6 +94,7 @@ nav ul li a:hover{
   margin-inline-start: 90px; 
  margin-inline-end: 50px;
   padding-bottom: 10PX;
+  font-size: medium;
 }
 .about h3  {
   margin-inline-start: 90px; 
@@ -154,6 +155,7 @@ nav ul li a:hover{
   flex: 20%;
   padding: 60px;
 }
+
 .Achievements h1{
   margin-inline-start: 30px;
   padding-top: 50px;
@@ -179,8 +181,7 @@ nav ul li a:hover{
 #Resume{
   color: aliceblue;
   margin-inline-start: 40px;
-  
-  
+    
 }
 .xyz{
   color: white ;
@@ -203,3 +204,4 @@ width: 550px;
 height: 350px;
 padding: 50px;
 }
+
